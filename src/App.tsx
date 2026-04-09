@@ -3,9 +3,6 @@ import axios from 'axios';
 import toast, { Toaster } from 'react-hot-toast';
 import { FiGithub, FiExternalLink, FiMail, FiUser, FiBriefcase, FiCode, FiSend } from 'react-icons/fi';
 import Loader from './components/Loader';
-import pimg from './assets/profile.svg';
-
-
 
 interface User {
   name: string;
