@@ -72,7 +72,7 @@ function App() {
       <section className="hero-gradient text-white min-vh-100 d-flex align-items-center position-relative overflow-hidden">
         <div className="container text-center py-5">
           <img 
-            src={pimg} 
+            src={user?.avatar || 'https://ui-avatars.com/api/?name=Harshad+Soyaliya&background=667eea&color=fff&size=140'} 
             alt={user?.name} 
             className="rounded-circle border border-4 border-white shadow-lg mb-4 animate-scale" 
             width="140" height="140" 
